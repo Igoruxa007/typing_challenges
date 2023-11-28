@@ -2,7 +2,7 @@ from constants import variable
 
 
 def compose_full_name(first_name: str, last_name: str, middle_name: None | str) -> str:
-    return f'{last_name} {first_name}{' ' + middle_name if middle_name else ''}'
+    return f'{last_name} {first_name}{" " + middle_name if middle_name else ""}'
 
 
 if __name__ == "__main__":
