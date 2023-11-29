@@ -1,8 +1,11 @@
-from constants import ___
+from constants import variable
 
 
-def is_correct_int(raw_int: ___) -> ___:
-    pass
+def is_correct_int(raw_int: str | None) -> bool:
+    if raw_int:
+        return raw_int.isdecimal()
+    else:
+        return False
 
 
 if __name__ == "__main__":

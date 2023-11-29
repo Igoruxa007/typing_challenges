@@ -1,8 +1,11 @@
-from constants import ___
+from constants import variable
 
 
-def stringify(value: ___) -> ___:
-    pass
+def stringify(value: str | float | None) -> str:
+    if value:
+        return str(value)
+    else:
+        return "None"
 
 
 if __name__ == "__main__":

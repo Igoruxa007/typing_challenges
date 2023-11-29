@@ -2,7 +2,7 @@ from constants import variable
 
 
 def send_email(header: str, text_content: str, send_to: str) -> None:
-    return None
+    print(header)
 
 
 if __name__ == "__main__":
