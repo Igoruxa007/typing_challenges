@@ -1,7 +1,7 @@
 import decimal
 import uuid
 
-from constants import variable
+from constants import ___
 
 
 def get_user_balance(user_id: uuid.UUID) -> decimal.Decimal:

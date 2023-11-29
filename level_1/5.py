@@ -1,4 +1,4 @@
-from constants import variable
+from constants import ___
 
 
 def is_correct_email(raw_email: str) -> bool:

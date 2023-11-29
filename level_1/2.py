@@ -1,4 +1,4 @@
-from constants import variable
+from constants import ___
 
 
 def is_adult(age: int, country_name: str) -> bool:

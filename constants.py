@@ -1,1 +1,1 @@
-variable = None
+___ = None

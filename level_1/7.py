@@ -1,8 +1,8 @@
-from constants import variable
+from constants import ___
 
 
 def send_email(header: str, text_content: str, send_to: str) -> None:
-    print(header)
+    pass
 
 
 if __name__ == "__main__":

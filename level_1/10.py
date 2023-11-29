@@ -1,7 +1,7 @@
-from constants import variable
+from constants import ___
 
 
-def stringify(value: str | float | None) -> str:
+def stringify(value: str | int | float | None) -> str:
     if value:
         return str(value)
     else:
