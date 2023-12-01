@@ -1,8 +1,8 @@
 from constants import ___
 
 
-def get_current_user() -> ___:
-    pass
+def get_current_user() -> list[str | int]:
+    return [1]
 
 
 if __name__ == "__main__":
