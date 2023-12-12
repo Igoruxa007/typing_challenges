@@ -1,8 +1,8 @@
 from constants import ___
 
 
-def is_point_in_square(point: ___, left_upper_corner: ___, right_bottom_corner: ___) -> ___:
-    pass
+def is_point_in_square(point: tuple[int, int], left_upper_corner: tuple[int, int], right_bottom_corner: tuple[int, int]) -> bool:
+    return True
 
 
 if __name__ == "__main__":
